@@ -18,13 +18,13 @@ Chose any source control that you are comfortable with. I have chosen git for va
 
 ###Github or Dropbox or Remote Folder backup?
 
-Once you decided to commit them to a source control system, the next obvious decision is to where to put the source control system. You definitely don't want them backup'ed only on local system, as you would need to sync them else where and also save you self from machine crashes.
+Once you decided to commit them to a source control system, the next obvious decision is to where to put the source control system. You definitely don't want them backup'ed only on local system, as you would need to sync them else where and also save yourself from machine crashes.
 
-I would choose a public [Github](http://github.com) repository if my dot-files didn't have any private information. But quite often we share keys to remote machines, hashed passwords and other private information under our home directory. So I would choose a dropbox account or remote folder to sync them up based on you privacy requirements of what you have in your dot files. Dropbox normally syncs up your files at ~/Dropbox.
+I would choose a public [Github](http://github.com) repository if my dot-files didn't have any private information. But quite often we share keys to remote machines, hashed passwords and other private information under our home directory. So I would choose a dropbox account or remote folder to sync them up based on your privacy requirements (i.e. what you have in your dot files). Dropbox normally syncs up your files at ~/Dropbox, thus you can easily use it.
 
 {% gist 1160309 dot-files-1.sh %}
 
-This creates the master repository under DropBox. Go check out this repository some local directory.
+This creates the master repository under DropBox. Go check out dotfiles repository into some local directory.
 
 {% gist 1160309 dot-files-2.sh %}
 
