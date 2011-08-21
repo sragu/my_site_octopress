@@ -47,9 +47,10 @@ I rather use small scripts to copy the dotfiles back to home directory or create
 
 You now can check out the git repo and run those commands to sync your dot files. Configure Dropbox to sync the files on the machine, or just copy over that dot-files.git folder.
 
+###Workflow
+
 {% gist 1160309 dot-files-5.sh %}
 
-###Tricks
 On a new machine where there are existing dot files I normally run the update.sh script, so the existing dot files are copied over to repo. Then stash the changes (thus saving the current system config), and run deploy to move my dot files to the home directory. I can revert to old version from stash. Or I can diff the changes with stash and merge them to a machine specific branch.
 
 That's it, never again lose your dot files.
