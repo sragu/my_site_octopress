@@ -10,6 +10,8 @@ Home directory on a terminal/shell/bash for developers is close to what a backst
 
 As a programmer often we work out of different machines, or login to remote machines for managing or debugging or even deploying our code. Thus its highly important to have the ability to sync where we need them.
 
+<!-- more -->
+
 ###Store them in Source Control
 
 There are several benefits to have them under source control. After all it is naturally beneficial to version them just like any code that we write. It would be easy to bring them back to live if your machine dies, or to resort to a last working copy.
