@@ -1,4 +1,1 @@
-rvm 1.9.2
-if ! command -v bundle ; then
-  gem install bundler
-fi
+rvm use 1.9.3
